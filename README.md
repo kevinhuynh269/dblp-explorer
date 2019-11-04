@@ -9,26 +9,26 @@
  find the references of those references until it reaches a specific tier which would be the Integer that you input.
 
 <h1>
-  EXAMPLE OF PROGRAM WORKING
+  EXAMPLE OF PROGRAM WORKING <br>
   </h1>
-  =========================================================================
+  ========================================================================= <br>
   
  Enter the textfile <br>
-dblp_papers_v11_first_100_lines.txt
-Enter a Keyword
-pilot
-Enter a Integer
-3
-Tier 1
-Pilots Aided Channel Estimation for Doubly Selective Fading Channel in Vehicular Environment
-Tier 2
-The GAME Algorithm Applied to Complex Fractionated Atrial Electrograms Data Set
-Data Protection and Privacy Preservation Using Searchable Encryption on Outsourced Databases
-Tier 3
-Data Protection and Privacy Preservation Using Searchable Encryption on Outsourced Databases
-Identify Error-Sensitive Patterns by Decision Tree
-63271800 NanoSeconds
+dblp_papers_v11_first_100_lines.txt <br>
+Enter a Keyword <br>
+pilot <br>
+Enter a Integer <br>
+3 <br>
+Tier 1 <br>
+Pilots Aided Channel Estimation for Doubly Selective Fading Channel in Vehicular Environment <br>
+Tier 2 <br>
+The GAME Algorithm Applied to Complex Fractionated Atrial Electrograms Data Set <br>
+Data Protection and Privacy Preservation Using Searchable Encryption on Outsourced Databases <br>
+Tier 3 <br>
+Data Protection and Privacy Preservation Using Searchable Encryption on Outsourced Databases <br>
+Identify Error-Sensitive Patterns by Decision Tree <br>
+63271800 NanoSeconds <br>
 
-Process finished with exit code 0
+Process finished with exit code 0 <br>
 
-==============================================================================
+============================================================================== <br>
