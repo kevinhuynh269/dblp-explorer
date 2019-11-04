@@ -15,3 +15,5 @@ it took .07 seconds to go down 3 tiers.
 So what my program does is it finds the keyword titles, then it goes and looks at its references and then it will look though the gaint list of ALL the JSONOBjects and then it will find where the references == ID and will print it out. then it will keep on looping until you have reached the nth tier. 
 
 The reason for that is so that the computer science students can see the paper that they need and see the inspiration that the article has used so they can get a deeper understanding of the topic in hand.
+
+Also the point of this hw is to get familiar with JSON data according to Alipour(Quoted). so please do not take off too many points if i read the instructions wrong since it was unclear.
