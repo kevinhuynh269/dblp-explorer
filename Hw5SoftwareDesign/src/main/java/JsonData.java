@@ -15,15 +15,21 @@ public class JsonData {
     public static void main(String[] args) throws Exception {
         JSONParser jsonParser = new JSONParser();
         LinkedList<JSONObject> m = new LinkedList<>();
-        File f = new File("dblp_papers_v11_first_100_lines.txt");
+        Scanner Obj =  new Scanner(System.in);
+        System.out.println("Enter the textfile");
+        String TextFile = Obj.nextLine();
+
+        File f = new File(TextFile);
         BufferedReader b = new BufferedReader(new FileReader(f));
         String readLine = "";
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter a Keyword");
         String Keyword = myObj.nextLine().toLowerCase();
+        System.out.println("Enter a Integer");
         String inputNumber = myObj.nextLine();
         int InputNumbers = Integer.valueOf(inputNumber);
-        System.out.println(InputNumbers);
+    //    System.out.println(InputNumbers);
+        long startTime = System.nanoTime();
         //Read Line by Line
         LinkedList<String> FinalReference = new LinkedList<>();
         LinkedList<String> FinalReference1 = new LinkedList<>();
@@ -119,7 +125,9 @@ public class JsonData {
 
         }
 
-
+        long endTime   = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println(totalTime+ " NanoSeconds");
 
     }
 }
