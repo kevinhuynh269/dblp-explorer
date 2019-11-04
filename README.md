@@ -13,7 +13,7 @@
   </h1>
   =========================================================================
   
- Enter the textfile \n
+ Enter the textfile <br>
 dblp_papers_v11_first_100_lines.txt
 Enter a Keyword
 pilot
